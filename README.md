@@ -39,7 +39,9 @@ SUMX(DISTINCT(dim_product[product_code]),ABS([Net error])))
   - FCA $ = SUM(fact_actuals_estimates[freight_cost])
   - FCoA $ = SUM(fact_actuals_estimates[freight_other_amount])
   - GM/Unit = DIVIDE([GM $],[Quantity],0)
+    
   - Market share % = DIVIDE(SUM('Market share'[Sales $]),SUM('Market share'[total_market_sales_$]),0)
+    
   - Operational expenses $ = (Key_Measure[ads & Promotions]+[Other_promotions])*-1
   - Other_promotions = SUM(fact_actuals_estimates[other_promotions])
   - Performance Visual title = Key_Measure[selected P & L rows] & " Performance over time"
