@@ -11,7 +11,7 @@
 - Net Profit % LY = CALCULATE(Key_Measure[Net Profit %],SAMEPERIODLASTYEAR(dim_date[date]))
 - Profit & Loss YoY Chg = [P & L Values]-[P & L LY]
 - P & L YoY Chg % = DIVIDE(Key_Measure[P & L YoY Chg],[P & L LY],0)*100
-- P & L LY = CALCULATE([P & L Values],SAMEPERIODLASTYEAR(dim_date[date]))
+- P & L LY = CALCULATE([P & L Values],SAMEPERIODLASTYEAR(dim_date[date])) 
 
 
 **Supply Chain**
