@@ -33,22 +33,22 @@ SUMX(DISTINCT(dim_product[product_code]),ABS([Net error])))
 **Sales View**
 - Total_cogs $ = [MC $]+[FCA $]+[FCoA $]
   
-  **Other Dax Quries**
-  - ads & Promotions = SUM(fact_actuals_estimates[ads_promotions])
-  - Benchmark_value = [NIS $]-[NIS India $]
-  - FCA $ = SUM(fact_actuals_estimates[freight_cost])
-  - FCoA $ = SUM(fact_actuals_estimates[freight_other_amount])
-  - GM/Unit = DIVIDE([GM $],[Quantity],0)
-  - Operational expenses $ = (Key_Measure[ads & Promotions]+[Other_promotions])*-1
-  - Other_promotions = SUM(fact_actuals_estimates[other_promotions])
-  - Performance Visual title = Key_Measure[selected P & L rows] & " Performance over time"
-  - PID $ = [Gs $]-[NIS $]
-  - PIDisc $ = SUM(fact_actuals_estimates[post_invoice_deductions_amount])
-  - PIDO $ = SUM(fact_actuals_estimates[post_invoice_other_deductions_amount])
-  - Quantity = SUM(fact_actuals_estimates[Qty])
-  - Risk = IF([Net error]>0, "Excesss inventory", IF([Net error]<0, "out of stock", BLANK()))
-  - Top/Bottom N title = "Top/bottom Products & Customers by " & 'Key_Measure'[selected P & L rows]
-  - Total PIDisc $ = [PIDisc $]+[PIDO $]
+**Other Dax Quries**
+- ads & Promotions = SUM(fact_actuals_estimates[ads_promotions])
+- Benchmark_value = [NIS $]-[NIS India $]
+- FCA $ = SUM(fact_actuals_estimates[freight_cost])
+- FCoA $ = SUM(fact_actuals_estimates[freight_other_amount])
+- GM/Unit = DIVIDE([GM $],[Quantity],0)
+- Operational expenses $ = (Key_Measure[ads & Promotions]+[Other_promotions])*-1
+- Other_promotions = SUM(fact_actuals_estimates[other_promotions])
+- Performance Visual title = Key_Measure[selected P & L rows] & " Performance over time"
+- PID $ = [Gs $]-[NIS $]
+- PIDisc $ = SUM(fact_actuals_estimates[post_invoice_deductions_amount])
+- PIDO $ = SUM(fact_actuals_estimates[post_invoice_other_deductions_amount])
+- Quantity = SUM(fact_actuals_estimates[Qty])
+- Risk = IF([Net error]>0, "Excesss inventory", IF([Net error]<0, "out of stock", BLANK()))
+- Top/Bottom N title = "Top/bottom Products & Customers by " & 'Key_Measure'[selected P & L rows]
+- Total PIDisc $ = [PIDisc $]+[PIDO $]
 
 **Key Insights**
 Big Sales Jump, But Profit Plummeted: Sales soared by 170.65% to $136.04 million, but net profit crashed by 37.64% to -$2.28 million. This means the company sold a lot more, but lost money overall.
