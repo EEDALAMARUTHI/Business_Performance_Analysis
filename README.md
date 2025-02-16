@@ -12,28 +12,6 @@
 - Profit & Loss YoY Chg = [P & L Values]-[P & L LY]
 - P & L YoY Chg % = DIVIDE(Key_Measure[P & L YoY Chg],[P & L LY],0)*100
 - P & L LY = CALCULATE([P & L Values],SAMEPERIODLASTYEAR(dim_date[date]))
-- P & L Values = 
-Var res = 
-SWITCH(TRUE(),
-MAX('P & L Rows'[Order])=1,[Gs $]/1000000,
-MAX('P & L Rows'[Order])=2,[PID $]/1000000,
-MAX('P & L Rows'[Order])=3,[NIS $]/1000000,
-MAX('P & L Rows'[Order])=4,[PIDisc $]/1000000,
-MAX('P & L Rows'[Order])=5,[PIDO $]/1000000,
-MAX('P & L Rows'[Order])=6,[PIDisc $]/1000000+[PIDO $]/1000000,
-MAX('P & L Rows'[Order])=7,[NS $]/1000000,
-MAX('P & L Rows'[Order])=8,[MC $]/1000000,
-MAX('P & L Rows'[Order])=9,[FCA $]/1000000,
-MAX('P & L Rows'[Order])=10,[FCoA $]/1000000,
-MAX('P & L Rows'[Order])=11,[Total_cogs $]/1000000,
-MAX('P & L Rows'[Order])=12,[GM $]/1000000,
-MAX('P & L Rows'[Order])=13,[GM % $]/100,
-MAX('P & L Rows'[Order])=14,[GM/Unit],
-MAX('P & L Rows'[Order])=15,[Operational expenses $]/1000000,
-MAX('P & L Rows'[Order])=16,[Net Profit]/1000000,
-MAX('P & L Rows'[Order])=17,[Net Profit %])
-RETURN
-IF(HASONEVALUE('P & L Rows'[Description]),res,[NS $]/1000000)
 
 
 **Supply Chain**
