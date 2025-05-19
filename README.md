@@ -50,17 +50,50 @@ SUMX(DISTINCT(dim_product[product_code]),ABS([Net error])))
 - Top/Bottom N title = "Top/bottom Products & Customers by " & 'Key_Measure'[selected P & L rows]
 - Total PIDisc $ = [PIDisc $]+[PIDO $]
 
-**Key Insights**
-Big Sales Jump, But Profit Plummeted: Sales soared by 170.65% to $136.04 million, but net profit crashed by 37.64% to -$2.28 million. This means the company sold a lot more, but lost money overall.
-Costs Exploded: Major cost increases ate into profits:
-Manufacturing costs nearly doubled (+99.01%).
-Freight costs more than doubled (+138.22%).
-Operational expenses also rose sharply (+105.64%).
-Gross Margin Improvement Didn't Help: While the gross margin percentage improved slightly (from 31.04% to 32.54%), the massive increase in the cost of goods sold meant that this small percentage gain was not enough to offset the huge increase in expenses.
-Excess Inventory is a Problem: The company has too much inventory, which is a sign of poor planning or forecasting. This ties up cash and could lead to losses if the inventory becomes obsolete.
-Regional Sales Skewed: Most sales came from the Asia-Pacific (APAC) region.
-Missing Details: The provided information lacks detail about which products or customers are driving the sales growth and which are contributing to the losses. This makes it hard to pinpoint the exact problems.
+**Key Insights**  
+Big Sales Jump, But Profit Plummeted.  
 
+Sales increased by 170.65% to $136.04 million.
+
+Net profit dropped by 37.64% to - $2.28 million.
+
+Despite higher sales, the company incurred an overall loss.
+
+Costs Exploded
+
+Manufacturing costs nearly doubled (+99.01%).
+
+Freight costs more than doubled (+138.22%).
+
+Operational expenses surged (+105.64%).
+
+These rising costs eroded profitability.
+
+Gross Margin Improvement Didn't Help
+
+Gross margin rose from 31.04% to 32.54%.
+
+The small improvement was not enough to counter the rising expenses.
+
+Excess Inventory is a Problem
+
+The company is holding too much inventory, indicating poor planning or forecasting.
+
+This ties up cash and poses a risk if inventory becomes obsolete.
+
+Regional Sales Skewed
+
+Most sales came from the Asia-Pacific (APAC) region, highlighting regional concentration risk.
+
+Missing Details
+
+Lack of clarity on which products or customers are contributing to:
+
+High sales growth
+
+Significant losses
+
+This limits insight into the root causes of the financial issues.
 
 
 
