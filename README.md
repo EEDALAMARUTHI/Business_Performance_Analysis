@@ -59,7 +59,7 @@ Net profit dropped by 37.64% to - $2.28 million.
 
 Despite higher sales, the company incurred an overall loss.
 
-Costs Exploded
+##Costs Exploded
 
 Manufacturing costs nearly doubled (+99.01%).
 
@@ -75,13 +75,13 @@ Gross margin rose from 31.04% to 32.54%.
 
 The small improvement was not enough to counter the rising expenses.
 
-Excess Inventory is a Problem
+##Excess Inventory is a Problem
 
 The company is holding too much inventory, indicating poor planning or forecasting.
 
 This ties up cash and poses a risk if inventory becomes obsolete.
 
-Regional Sales Skewed
+##Regional Sales Skewed
 
 Most sales came from the Asia-Pacific (APAC) region, highlighting regional concentration risk.
 
@@ -89,7 +89,7 @@ Missing Details
 
 Lack of clarity on which products or customers are contributing to:
 
-High sales growth
+##High sales growth
 
 Significant losses
 
